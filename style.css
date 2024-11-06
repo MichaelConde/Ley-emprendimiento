@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100vw;
+}
+body > div{
+    max-width: 90%;
+    border: 2px solid black; /* Bordes de 2px de grosor y color negro */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(yellow, blue, red);
+
+}
+header{
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+    text-align: center;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/1595334924302.png) ;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+ 
+    
+}
+#Introduccion{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: 25px;
+margin-top: 2rem;
+
+
+}
+#Eje1{
+    display: flex;
+    margin-top: 5%;
+    color: aliceblue;
+    
+}
+
+#Eje1 > div{
+    margin-left: 5%;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#Eje1 > div > h2{
+    padding-bottom: 2%;
+    
+    
+}
+
+
+#Eje1 > img{
+    margin-left: 5%;
+    
+}
+img{
+    max-width: 30%;
+    border-radius: 15px;
+}
+
+#Eje2 > img{
+    margin-left: 5%;
+    
+}
+
+#Eje2{
+    display: flex;
+    margin-top: 5%;
+    color: aliceblue;
+    
+}
+
+#Eje2 > div{
+    margin-left: 5%;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#Eje2 > div > h2{
+    padding-bottom: 2%;
+    
+    
+}
+
+
+#Eje3 > img{
+    margin-left: 5%;
+    
+}
+
+#Eje3{
+    display: flex;
+    margin-top: 5%;
+    color: aliceblue;
+    
+}
+
+#Eje3 > div{
+    margin-left: 5%;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#Eje3 > div > h2{
+    padding-bottom: 2%;
+    
+    
+}
+
+
+#Eje3 > img{
+    margin-left: 5%;
+    
+}
+
+
+
+#Eje4 > img{
+    margin-left: 5%;
+    
+}
+
+#Eje4{
+    display: flex;
+    margin-top: 5%;
+    color: aliceblue;
+    
+}
+
+#Eje4 > div{
+    margin-left: 5%;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#Eje4 > div > h2{
+    padding-bottom: 2%;
+    
+    
+}
+
+
+#Eje4 > img{
+    margin-left: 5%;
+    
+}
+
+
+
+
+#Eje5 > img{
+    margin-left: 5%;
+    
+}
+
+#Eje5{
+    display: flex;
+    color: aliceblue;
+    margin-top: 5%;
+    
+}
+
+#Eje5 > div{
+    margin-left: 5%;
+    max-width: 50%;
+    text-align: center;
+    
+}
+#Eje5 > div > h2{
+    padding-bottom: 2%;
+    
+    
+}
+
+
+#Eje5 > img{
+    margin-left: 5%;
+    
+}
+
+#Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+#Info > h2{
+    margin-bottom: 3%;
+}
+#Info > a{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+footer{
+    background-color: rgb(199, 47, 47);
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
